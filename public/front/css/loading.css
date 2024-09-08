@@ -1,0 +1,34 @@
+.part
+{
+    width: 250px;
+    margin-top: 19%;
+}
+
+.svgpath
+{
+    fill: rgba(145,220,90,0);
+    stroke:#50AB50;
+    stroke-width: 1.5px;
+    stroke-dasharray: 1000;
+    stroke-linecap: round;
+    z-index: 2;
+}
+
+.svgbg
+{
+    fill: rgba(255,255,255,0);
+    z-index: 1;
+}
+
+#playload
+{
+    animation: dash 2.5s reverse ease-in-out infinite;
+}
+
+@keyframes dash
+{
+    to
+    {
+        stroke-dashoffset: 2000;
+    }
+}

@@ -1,0 +1,2 @@
+<script src="<?php echo e(url('/')); ?>/public/front/js/bootstrap-datepicker.min.js"></script>
+<link href="<?php echo e(url('/')); ?>/public/front/css/bootstrap-datepicker.min.css" rel=stylesheet type="text/css" />

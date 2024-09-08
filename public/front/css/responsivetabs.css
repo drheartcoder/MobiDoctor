@@ -1,0 +1,20 @@
+.responsive-tabs.responsive-tabs-initialized{display:block}
+.responsive-tabs>div.content{clear:both}
+.responsive-tabs.accordion{border:1px solid #e1e1e1;}
+.responsive-tabs.accordion>nav{display:none}
+.responsive-tabs.accordion h3.accordion-title{margin:0}
+.responsive-tabs.accordion h3.accordion-title a{background:#fff;font-weight:400;border-top:1px solid #e1e1e1;padding:10px 15px;display:block;font-size:18px;color:#3a3a3a;text-decoration:none;font-family: 'robotomedium';}
+.responsive-tabs.accordion h3.accordion-title.active a{color: #189108;}
+.responsive-tabs.accordion h3.accordion-title a::before{font: normal normal normal 14px/1 FontAwesome;font-size: inherit;
+text-rendering: auto;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;content: "\f107";font-size: 20px;float: right;}
+.responsive-tabs.accordion h3.accordion-title.active a::before{content: "\f106";}
+.responsive-tabs.accordion h3.accordion-title:first-child a{border-top:none}
+.responsive-tabs.accordion>div.content>section{padding:10px;background:#fff;display:block;border-top:1px solid #e1e1e1;overflow:auto}
+.responsive-tabs.tabs{border:none}
+.responsive-tabs.tabs>nav{display:block;margin: 0 0 20px;}
+.responsive-tabs.tabs>nav ul{list-style:none;padding:0;margin:0}
+.responsive-tabs.tabs>nav ul:after{content:'';display:table;clear:both}
+.responsive-tabs.tabs>nav ul li{float:left;font-size:16px;width: 33.33%;text-align: center;}
+.responsive-tabs.tabs>nav ul li.active a{color: #189108;border-bottom: 1px solid #189108;}
+.responsive-tabs.tabs>nav ul li a{color:#3a3a3a;padding:10px 15px;font-size:18px;display:block;text-decoration:none;font-family: 'robotomedium';border-bottom: 1px solid #e2e2e2;}
+.responsive-tabs.tabs h3.accordion-title{display:none}

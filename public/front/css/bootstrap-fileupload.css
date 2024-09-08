@@ -1,0 +1,190 @@
+.fileupload .input-group {
+    display: block
+}
+
+.fileupload .change-btn,
+.fileupload .file-input,
+.fileupload .input-group-addon,
+.fileupload .input-group-btn {
+    display: inline-block;
+    white-space: normal;
+    width: 100%;
+}
+
+.fileupload .input-group-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+
+.btn-file,
+.fileupload .img-thumbnail,
+.fileupload .uneditable-input {
+    overflow: hidden;
+    vertical-align: middle
+}
+
+.btn-file {
+    position: relative
+}
+
+.btn-file > input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    font-size: 23px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+
+.fileupload {
+    border: 1px solid #dde7ed;
+    border-radius: 3px;
+    height: 40px;
+    padding: 2px
+}
+
+.fileupload .uneditable-input {
+    display: block;
+    margin-bottom: 0;
+    cursor: text;
+    padding: 5px 160px 5px 10px
+}
+
+.fileupload .fileupload-preview {
+    display: block;
+    height: 25px;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.fileupload .img-thumbnail {
+    display: inline-block;
+    margin-bottom: 5px;
+    text-align: center
+}
+
+.fileupload .img-thumbnail > img {
+    display: inline-block;
+    max-height: 100%;
+    vertical-align: middle
+}
+
+.fileupload .btn {
+    vertical-align: top;
+    padding: 0
+}
+
+.fileupload-exists .fileupload-new,
+.fileupload-new .fileupload-exists {
+    display: none
+}
+
+.fileupload-inline .fileupload-controls {
+    display: inline
+}
+
+.fileupload-new .input-group .btn-file {
+    display: block;
+    z-index: 0;
+    background-color: #189108;
+    color: #fff;
+    border-radius: 3px !important;
+    font-size: 15px;
+    font-family: robotomedium;
+    padding: 5px 10px;
+    height: 34px;
+    width: 145px;
+    margin-top: 0;
+    position: unset;
+    float: right
+}
+
+.img-thumbnail-borderless .img-thumbnail {
+    padding: 0;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none
+}
+
+.fileupload-new.img-thumbnail-borderless .img-thumbnail {
+    border: 1px solid #ddd
+}
+
+.control-group.warning .fileupload .uneditable-input {
+    color: #a47e3c;
+    border-color: #a47e3c
+}
+
+.control-group.warning .fileupload .fileupload-preview {
+    color: #a47e3c
+}
+
+.control-group.warning .fileupload .img-thumbnail {
+    border-color: #a47e3c
+}
+
+.control-group.error .fileupload .uneditable-input {
+    color: #b94a48;
+    border-color: #b94a48
+}
+
+.control-group.error .fileupload .fileupload-preview {
+    color: #b94a48
+}
+
+.control-group.error .fileupload .img-thumbnail {
+    border-color: #b94a48
+}
+
+.control-group.success .fileupload .uneditable-input {
+    color: #468847;
+    border-color: #468847
+}
+
+.control-group.success .fileupload .fileupload-preview {
+    color: #468847
+}
+
+.fileupload .btn.remove-file,
+.fileupload.fileupload-exists .change-btn {
+    color: #fff;
+    font-size: 15px;
+    font-family: robotomedium;
+    border-radius: 3px !important;
+    padding: 5px 10px
+}
+
+.control-group.success .fileupload .img-thumbnail {
+    border-color: #468847
+}
+
+.fileupload .btn-file .fileupload-exists {
+    height: 34px
+}
+
+.fileupload .btn.remove-file {
+    background-color: #ff3c41;
+    height: 34px
+}
+
+.fileupload.fileupload-exists .change-btn {
+    background-color: #189108;
+    padding: 6px 10px;
+    height: 34px;
+    display: inline-block;
+    margin-right: 2px
+}
+
+.uneditable-input i {
+    color: #aeb5be
+}

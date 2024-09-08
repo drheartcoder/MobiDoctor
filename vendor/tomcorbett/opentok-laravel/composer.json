@@ -1,0 +1,26 @@
+{
+    "name": "tomcorbett/opentok-laravel",
+    "description": "A laravel bundle for the OpenTok PHP SDK",
+    "keywords": ["opentok", "streaming", "video streaming"],
+    "homepage": "https://github.com/tomcorbett/opentok-laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Corbett",
+            "email": "thomas.michael.corbett@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.x|5.1.x|5.2.x",
+        "opentok/opentok": "2.2.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tomcorbett\\OpentokLaravel\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
+ 
